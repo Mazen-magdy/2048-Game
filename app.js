@@ -107,7 +107,7 @@ function creation(box){
 
 
 // action with keys
-document.addEventListener('keydown', function(event) {
+document.addEventListener('keydown' , function(event) {
     if(event.code === 'ArrowLeft') {
         left(box)
         scoreElement.textContent = 'Score : ' + score;
